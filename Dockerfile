@@ -2,3 +2,5 @@
 FROM jupyter/scipy-notebook:latest
 
 USER root
+
+RUN python -m pip install docopt-ng
